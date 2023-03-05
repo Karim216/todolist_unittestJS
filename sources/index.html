@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JavaScript">
+    <meta name="theme-color" content="#ffffff">
+    <title>JavaScript</title>
+    <script src="./User.class.js"></script>
+    <script src="./ToDoList.class.js"></script>
+    <script src="./Event.class.js"></script>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <main class="flex fdc aic">
+        <div class="container">
+            <h1>TO DO LIST</h1>
+            <div class="container-list-register flex jcsb gap-25">
+                <div class="list w-50">
+                    <div class="select-user-container flex aic gap-10">
+                        <label class="w-50" for="">Sélectionner un utilisateur</label>
+                        <select name="" id="userList" class="w-50">
+                            <option value="user1">user1</option>
+                            <option value="user2">user2</option>
+                            <option value="user3">user3</option>
+                            <option value="user4">user4</option>
+                        </select>
+                    </div>
+                    <div class="nbr-list">13 listes</div>
+                    <div class="list-items">
+                        <ul class="flex fdc gap-15">
+                            <li class="flex fdc gap-5">
+                                <div class="flex jce">
+                                    <div class="flex gap-5"><em>il y'a</em><em class="due-time">5h</em></div>
+                                </div>
+                                <p class="to-do-content">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Distinctio ea
+                                    nesciunt officiis repellendus dicta dignissimos consequuntur voluptatibus
+                                    repudiandae voluptatum
+                                    nobis.</p>
+                                <div class="flex jce">
+                                    <div class="flex gap-5"><em>par: </em><em class="author">Ahmed Karim Betkom</em>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="flex fdc gap-5">
+                                <div class="flex jce">
+                                    <div class="flex gap-5"><em>il y'a</em><em class="due-time">5h</em></div>
+                                </div>
+                                <p class="to-do-content">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Distinctio ea
+                                    nesciunt officiis repellendus dicta dignissimos consequuntur voluptatibus
+                                    repudiandae voluptatum
+                                    nobis.</p>
+                                <div class="flex jce">
+                                    <div class="flex gap-5"><em>par: </em><em class="author">Ahmed Karim Betkom</em>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="flex fdc gap-5">
+                                <div class="flex jce">
+                                    <div class="flex gap-5"><em>il y'a</em><em class="due-time">5h</em></div>
+                                </div>
+                                <p class="to-do-content">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Distinctio ea
+                                    nesciunt officiis repellendus dicta dignissimos consequuntur voluptatibus
+                                    repudiandae voluptatum
+                                    nobis.</p>
+                                <div class="flex jce">
+                                    <div class="flex gap-5"><em>par: </em><em class="author">Ahmed Karim Betkom</em>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="flex fdc gap-5">
+                                <div class="flex jce">
+                                    <div class="flex gap-5"><em>il y'a</em><em class="due-time">5h</em></div>
+                                </div>
+                                <p class="to-do-content">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Distinctio ea
+                                    nesciunt officiis repellendus dicta dignissimos consequuntur voluptatibus
+                                    repudiandae voluptatum
+                                    nobis.</p>
+                                <div class="flex jce">
+                                    <div class="flex gap-5"><em>par: </em><em class="author">Ahmed Karim Betkom</em>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="flex fdc gap-5">
+                                <div class="flex jce">
+                                    <div class="flex gap-5"><em>il y'a</em><em class="due-time">5h</em></div>
+                                </div>
+                                <p class="to-do-content">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Distinctio ea
+                                    nesciunt officiis repellendus dicta dignissimos consequuntur voluptatibus
+                                    repudiandae voluptatum
+                                    nobis.</p>
+                                <div class="flex jce">
+                                    <div class="flex gap-5"><em>par: </em><em class="author">Ahmed Karim Betkom</em>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="flex fdc gap-5">
+                                <div class="flex jce">
+                                    <div class="flex gap-5"><em>il y'a</em><em class="due-time">5h</em></div>
+                                </div>
+                                <p class="to-do-content">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Distinctio ea
+                                    nesciunt officiis repellendus dicta dignissimos consequuntur voluptatibus
+                                    repudiandae voluptatum
+                                    nobis.</p>
+                                <div class="flex jce">
+                                    <div class="flex gap-5"><em>par: </em><em class="author">Ahmed Karim Betkom</em>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="register-new-list w-50 flex fdc jcsb aic">
+                    <div class="btn btn-group flex jcsb gap-5">
+                        <button class="btn btn-register btn-register-new-user active w-50">Inscrire un
+                            utilisateur</button>
+                        <button class="btn btn-register btn-register-new-list w-50">Créer une nouvelle liste</button>
+                    </div>
+                    <div class="form-container w-100 h-100">
+                        <form action="" class="register-form jcsb flex fdc gap-20">
+                            <div class="input-container">
+                                <label for="">Nom<span class="obliged">*</span></label>
+                                <input type="text" name="lastname" id="lastname" placeholder="Votre nom">
+                            </div>
+                            <div class="input-container">
+                                <label for="">Prénom<span class="obliged">*</span></label>
+                                <input type="text" name="firstname" id="firstname" placeholder="Votre prénom">
+                            </div>
+                            <div class="input-container">
+                                <label for="">Email<span class="obliged">*</span></label>
+                                <input type="email" name="email" id="email" placeholder="exemple@yyy.com">
+                            </div>
+                            <div class="input-container">
+                                <label for="">Date de naissanse<span class="obliged">*</span></label>
+                                <div class="birth-container flex gap-5 jcsb">
+                                    <input name="day" id="day" type="number" placeholder="jj">
+                                    <input name="month" id="month" type="number" placeholder="mm">
+                                    <input name="year" id="year" type="number" placeholder="aaaa">
+                                </div>
+                            </div>
+                            <div class="input-container">
+                                <label for="">Mot de passe<span class="obliged">*</span></label>
+                                <input type="password" name="" id="password" placeholder="Votre mot de passe">
+                            </div>
+                            <button class="btn btn-send-form btn-add-user">Valider</button>
+                        </form>
+                        <form action="" class="none new-list-form flex fdc jcsb gap-15">
+                            <div class="select-user-container input-container">
+                                <label for="">Sélectionner un utilisateur<span class="obliged">*</span></label>
+                                <select name="userAddList" id="userAddList">
+                                    <option value="1">user1</option>
+                                    <option value="2">user2</option>
+                                    <option value="3">user3</option>
+                                    <option value="4">user4</option>
+                                </select>
+                            </div>
+                            <div class="input-container">
+                                <label for="">Remplissez le champ<span class="obliged">*</span></label>
+                                <textarea name="champ" id="champ" rows="10" placeholder="Saisissez vos infos ici"></textarea>
+                            </div>
+                            <button class="btn btn-send-form btn-add-list">Valider</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+
+</html>
