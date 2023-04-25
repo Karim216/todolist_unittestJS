@@ -58,7 +58,7 @@ class User {
 
     return (
       this.getId() > -1 &&
-      this.isNull(this.#age) &&
+      this.isNull(this.#age+'') &&
       this.validAge(this.#age) &&
       this.isNull(this.#firstname) &&
       this.validStr(this.firstname) &&
@@ -156,3 +156,5 @@ class User {
     return regEmail.test(email);
   }
 }
+
+module.exports = User;
